@@ -8,8 +8,8 @@
       }
     }
   ],
-  "installCommand": "pnpm install --frozen-lockfile",
-  "buildCommand": "pnpm build",
+  "installCommand": "corepack prepare pnpm@10.4.1 --activate && pnpm install --frozen-lockfile",
+  "buildCommand": "corepack prepare pnpm@10.4.1 --activate && pnpm build",
   "routes": [
     {
       "src": "/(.*)",
