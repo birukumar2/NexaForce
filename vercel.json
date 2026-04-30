@@ -8,6 +8,8 @@
       }
     }
   ],
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm build",
   "routes": [
     {
       "src": "/(.*)",
