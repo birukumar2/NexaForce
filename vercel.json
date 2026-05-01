@@ -1,11 +1,5 @@
 {
   "installCommand": "corepack prepare pnpm@10.4.1 --activate && pnpm install --no-frozen-lockfile",
   "buildCommand": "corepack prepare pnpm@10.4.1 --activate && pnpm run vercel-build",
-  "outputDirectory": "dist/public",
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "outputDirectory": "dist/public"
 }
